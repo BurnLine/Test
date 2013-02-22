@@ -19,6 +19,7 @@ public class Board extends SurfaceView implements Runnable,
 		SurfaceHolder.Callback {
 	private static final int THREAD_DRAW = 1;
 	private static final int THREAD_STOP = 2;
+	
 
 	private Thread thread;
 	private Timer timer;
